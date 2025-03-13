@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Bulb </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Light Bulb</h1>
+
+            <!-- Bulb Image -->
+            <div class="bulb-container">
+                <img id="bulb" src="./images/bulb-off.png" alt="Light Bulb" class="bulb">
+            </div>
+
+            <!-- Buttons -->
+            <div class="buttons">
+                <button id="turnOn" class="btn btn-on">Turn On</button>
+                <button id="turnOff" class="btn btn-off" disabled>Turn Off</button>
+            </div>
+
+            <!-- Status -->
+            <p class="status" id="status">Status: Light is Off</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
